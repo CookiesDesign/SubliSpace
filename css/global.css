@@ -19126,3 +19126,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   html.lt-ie-10 .ie-panel {
 	display: block;
   }
+
+  /*----> Cards Temperatures <----*/
+
+  .imgTemperatures {
+	width: 70%;
+	height: 60%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+  }
