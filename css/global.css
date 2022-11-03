@@ -19131,6 +19131,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	display: block;
   }
 
+   /*----> Cards Downloads <----*/
+
+  .downloadableBtn {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+    margin-bottom: 20px;
+  }
+
   /*----> Cards Temperatures <----*/
 
   .imgTemperatures {
