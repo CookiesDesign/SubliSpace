@@ -5824,7 +5824,8 @@ html:not(.tablet):not(.mobile) .downloadable-files-modern-main {
 }
 
 html:not(.tablet):not(.mobile) .downloadable-files-modern-main-item_primary {
-	padding: 24px 20px 45px 70px;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
 	transform: scale3d(0.97, 0.97, 0.97);
 }
 
