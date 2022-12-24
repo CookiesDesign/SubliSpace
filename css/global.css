@@ -19261,3 +19261,17 @@ font-weight: 400;
   .video-interested {
 	font-weight: bold;
   }
+
+  /* Temperatures */
+
+  .parameters {
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+  }
+
+  .parametersTime {
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+  }
