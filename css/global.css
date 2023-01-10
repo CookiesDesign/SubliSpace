@@ -19151,6 +19151,202 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	margin-right: auto;
   }
 
+.temperatures-modern {
+	position: relative;
+	overflow: hidden;
+	display: block;
+	max-width: 265px;
+	margin: 0 auto;
+	box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.15);
+	background: #ffffff;
+	text-align: left;
+}
+
+.temperatures-modern .temperatures-modern-main-title {
+	font-style: italic;
+}
+
+.temperatures-modern-figure {
+	position: relative;
+	flex-grow: 1;
+	z-index: 2;
+}
+
+.temperatures-modern-image {
+	width: 100%;
+	transform-origin: 50% 0;
+	transform: scale3d(1, 1, 1) rotate(0.1deg);
+}
+
+.temperatures-modern-main {
+	position: relative;
+	z-index: 1;
+	color: #9b9b9b;
+	padding: 20px;
+	text-align: center;
+}
+
+.temperatures-modern-main-item {
+	width: 100%;
+	flex-shrink: 0;
+	background: #ffffff;
+}
+
+.temperatures-modern-main-item * + .list-inline {
+	margin-top: 12px;
+}
+
+html:not(.tablet):not(.mobile) .temperatures-modern:hover .temperatures-modern-toggle {
+	transform: rotate(180deg);
+}
+
+html:not(.tablet):not(.mobile) .temperatures-modern:hover .temperatures-modern-main-item_primary::before {
+	opacity: 1;
+	visibility: visible;
+}
+
+html:not(.tablet):not(.mobile) .temperatures-modern:hover .temperatures-modern-main-item_secondary {
+	top: 0;
+	right: 0;
+	transform: translate3d(-100%, 0, 0);
+	cursor: default;
+}
+
+html:not(.tablet):not(.mobile) .temperatures-modern-main {
+	display: flex;
+	padding: 0;
+	text-align: left;
+}
+
+html:not(.tablet):not(.mobile) .temperatures-modern-main-item_primary {
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	transform: scale3d(0.97, 0.97, 0.97);
+}
+
+html:not(.tablet):not(.mobile) .temperatures-modern-main-item_primary::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+	background: rgba(0, 0, 0, 0.05);
+	opacity: 0;
+	visibility: hidden;
+	transition: .45s;
+}
+
+html:not(.tablet):not(.mobile) .temperatures-modern-main-item_secondary {
+	position: relative;
+	z-index: 2;
+	top: -52px;
+	right: -52px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 24px 55px 25px 47px;
+	text-align: center;
+	cursor: pointer;
+	transform: translate3d(-200%, 100%, 0);
+	transition: .45s;
+	color: #ffffff;
+	background: #3375ec;
+}
+
+html:not(.tablet):not(.mobile) .temperatures-modern-main-item_secondary .temperatures-modern-main-title {
+	color: #ffffff;
+}
+
+html:not(.tablet):not(.mobile) .temperatures-modern-main-item_secondary a.icon:hover {
+	color: #ffea5c;
+}
+
+html:not(.tablet):not(.mobile) .temperatures-modern-main-title {
+	display: block;
+}
+
+html:not(.tablet):not(.mobile) .temperatures-modern-toggle {
+	position: absolute;
+	z-index: 3;
+	top: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 52px;
+	height: 52px;
+	color: #ffffff;
+	font-size: 18px;
+	transition: .22s;
+}
+
+.temperatures-modern-main-title {
+	display: none;
+}
+
+.temperatures-modern-name {
+	font-weight: 400;
+	letter-spacing: 0.03em;
+}
+
+.temperatures-modern-toggle {
+	display: none;
+}
+
+.temperatures-modern-position {
+	letter-spacing: 0.05em;
+}
+
+* + .temperatures-modern-position {
+	margin-top: 3px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.temperatures-modern {
+		max-width: 320px;
+	}
+}
+
+.owl-carousel_temperatures-modern .owl-stage-outer {
+	margin: -25px;
+	padding: 25px;
+}
+
+.owl-carousel_temperatures-modern .owl-item {
+	flex-grow: 1;
+	flex-shrink: 0;
+	opacity: 0;
+	transition: .22s;
+}
+
+.owl-carousel_temperatures-modern .owl-item.active {
+	opacity: 1;
+}
+
+* + .owl-carousel_temperatures-modern {
+	margin-top: 35px;
+}
+
+@media (min-width: 768px) {
+	.owl-carousel_temperatures-modern .owl-dots {
+		margin-top: 40px;
+	}
+	* + .owl-carousel_temperatures-modern {
+		margin-top: 40px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.owl-carousel_temperatures-modern .owl-dots {
+		margin-top: 60px;
+	}
+	* + .owl-carousel_temperatures-modern {
+		margin-top: 60px;
+	}
+}
+
 /*----> Cards Blog <----*/
 
 .cardsBlog {
